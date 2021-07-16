@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(247, 247, 247);
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: rgb(20, 20, 20);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+}
+
+#formulario {
+    text-align: center;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    margin-top: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    color: #292929;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #292929;
+    box-shadow: 2px 2px 2px rbga(0,0,0,0.2);
+    display: inline-block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #e7f8fc;
+}
+
+#tabela_notas {
+    justify-content: center;
+}
+
+th {
+    padding: 5px;
+    text-align: center;
+}
