@@ -1,4 +1,4 @@
-# Boletim-AceleradoraAgil
+# Aceleradora Ágil: Boletim
 
 <p align="center">Boletim desenvolvido para a 2ª fase do processo seletivo da Aceleradora Ágil, turma 20 (2021/2º Semestre).</p>
 
